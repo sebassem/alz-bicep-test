@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "parTopLevelManagementGroupPrefix": {
+      "value": "alz"
+    },
+    "parTopLevelManagementGroupSuffix": {
+      "value": ""
+    },
+    "parLogAnalyticsWorkSpaceAndAutomationAccountLocation": {
+      "value": "eastus2"
+    },
+    "parLogAnalyticsWorkspaceResourceId": {
+      "value": "/subscriptions/975109d6-a68b-4b08-87a5-af743dcf6957/resourcegroups/rg-alz-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
+    },
+    "parLogAnalyticsWorkspaceLogRetentionInDays": {
+      "value": "365"
+    },
+    "parAutomationAccountName": {
+      "value": "alz-automation-account"
+    },
+    "parMsDefenderForCloudEmailSecurityContact": {
+      "value": "sebassem@microsoft.com"
+    },
+    "parDdosProtectionPlanId": {
+      "value": ""
+    },
+    "parPrivateDnsResourceGroupId": {
+      "value": "/subscriptions/e3b447fd-b561-4fa4-a821-4f90799ba35d/resourceGroups/rg-alz-connectivity"
+    },
+    "parPrivateDnsZonesNamesToAuditInCorp": {
+      "value": []
+    },
+    "parDisableAlzDefaultPolicies": {
+      "value": false
+    },
+    "parVmBackupExclusionTagName": {
+      "value": ""
+    },
+    "parVmBackupExclusionTagValue": {
+      "value": []
+    },
+    "parExcludedPolicyAssignments": {
+      "value": []
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    }
+  }
+}
